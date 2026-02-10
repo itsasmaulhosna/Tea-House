@@ -4,6 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      * {
+        font-family: 'Manrope', sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <section class="grid grid-cols-2 container mx-auto">
+      <div class="left space-y-[40px]">
+        <h2 class="text-7xl font-bold">
+          It's good<br />tea times at the<br />Tea House
+        </h2>
+        <p class="text-[#777777]">
+          Tea and Botanical Soultion Supplier Give Optimum<br />Satisfaction to
+          All Customers
+        </p>
+        <button
+          class="px-5 py-4 rounded bg-linear-to-r/srgb from-[#ff8938] to-[#ff0000] text-white font-semibold"
+        >
+          Explore More
+        </button>
+      </div>
+      <div class="right">
+        <img src="./images/banner.png" />
+      </div>
+    </section>
+  </body>
 </html>
